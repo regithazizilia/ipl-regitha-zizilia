@@ -1,5 +1,6 @@
-public class DieselEngine { 
-    void start() { 
+public class DieselEngine implements EngineInterface{ 
+    @Override
+    public void start() { 
 
      } 
 } 
