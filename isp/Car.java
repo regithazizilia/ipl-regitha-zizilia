@@ -1,4 +1,4 @@
-class Car implements VehicleInterface { 
+class Car implements VehicleInterface, DoorInterface { 
  
     // Can be implemented 
     @Override 
@@ -16,9 +16,7 @@ class Car implements VehicleInterface {
     
     } 
 
-    //this method can't be implemented karena motor tidak punya pintu
     @Override 
     public void openDoors() { 
-    
     } 
 } 
