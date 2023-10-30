@@ -1,0 +1,3 @@
+interface StoppieInterface { 
+    void stoppie() 
+}

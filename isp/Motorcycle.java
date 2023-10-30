@@ -1,4 +1,4 @@
-class Motorcycle implements VehicleInterface { 
+class Motorcycle implements VehicleInterface, StoppieInterface { 
  
     // Can be implemented 
     @Override 
@@ -15,4 +15,9 @@ class Motorcycle implements VehicleInterface {
     public void refuel() { 
     
     }  
+
+     @Override 
+    public void stoppie() { 
+    
+    } 
 } 
